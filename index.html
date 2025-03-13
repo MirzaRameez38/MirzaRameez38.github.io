@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirza Rameez Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/theme-variables.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo" onclick="window.location.href='../index.html'">MR</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+        
+        
+        <div class="theme-toggle" aria-label="Toggle dark mode">
+            <i class="fas fa-moon" id="theme-icon"></i>
+        </div>
+        <div class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section with Neural Network Animation -->
+    <section id="home" class="hero">
+        <canvas id="neural-network-canvas"></canvas>
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Mirza Rameez</span></h1>
+            <h2>Generative AI Artist</h2>
+            <p>Crafting intelligent solutions through code and innovation</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+ <!-- About Me Section -->
+<section class="about-me" id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <div class="about-text-inner">
+                    <h3>Hello, I'm <span class="highlight">Mirza Rameez</span></h3>
+                    <h4>Gen-AI & Physics</h4>
+                    <div class="about-description">
+                        <p>I'm a BS Physics student on a mission to make the power of AI accessible to all. I transform complex concepts into engaging, accessible digital experiences. I believe anyone can learn and leverage these cutting-edge tools, regardless of their background. My journey from AI novice to certified practitioner proves it.</p>
+                        <div class="read-more-content" id="read-more-content">
+                            <h4>My Expertise</h4>
+                            <ul>
+                                <li>Creative Problem-Solving: I apply my analytical skills from physics to develop unique AI-powered solutions.</li>
+                                <li>Beginner-Friendly Approach: I break down complex AI concepts into easy-to-understand terms.</li>
+                                <li>Technical Proficiency: A blend of physics fundamentals and expertise in AI systems (Midjourney, DALL-E 3, Stable Diffusion), design tools (Canva Pro, Adobe Creative Suite), and game development (Python, Pygame, Unity 3D).</li>
+                                <li>Learning-Focused Projects: My portfolio showcases projects that started as learning experiments, demonstrating a clear progression and a commitment to continuous improvement.</li>
+                                <li>Practical Application: My portfolio showcases projects like 3D physics simulations and AI-enhanced content creation, demonstrating the real-world value of my skills.</li>
+                                <li>Documentation & Frameworks: I provide clear documentation and structured frameworks to help others navigate the world of AI.</li>
+                            </ul>
+                            <br>
+                       
+                        
+                                <h4>Currently Building</h4>
+                                <p>I'm currently developing an AI agent capable of autonomous task execution, combining my prompt engineering skills with my passion for practical AI applications.</p>
+                                
+                                <h4>Let's Connect</h4>
+                                <p>If you're a student, educator, or simply curious about AI, I'd love to hear from you! <a href="#contact" class="highlight">Contact me</a> to discuss collaboration, learning resources, or how we can build the future of AI together. I'm always open to collaboration, learning opportunities, and discussing how AI can be used to solve real-world problems.</p>
+                            
+                        </div>
+                        <button class="read-more-btn" id="read-more-btn">Read More <i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="image-frame">
+                    <div class="frame-decoration"></div>
+                    <div class="image-container">
+                        <img src="assets/images/profile.png" alt="Mirza Rameez">
+                    </div>
+                    <div class="frame-pattern"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <!-- Projects Section -->
+<section id="projects" class="projects">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="project-cards">
+        <div class="project-card">
+            <img src="/assets/images/comp-vision.png" alt="Computer Vision project image" class="project-image">
+            <h3>Computer Vision</h3>
+            <p>Deep learning model for real-time object detection</p>
+            <div class="project-tech">
+                <span>Python</span>
+                <span>OpenCV</span>
+                <span>Gesture Recognition</span>
+                <span>Face Detection</span>
+               
+            </div>
+            <a href="projects/computer-vision.html" class="project-link">View Project</a>
+        </div>
+        
+        <div class="project-card">
+            <img src="/assets/images/3d-sim.png" alt="3D Simulations project image" class="project-image">
+            <h3>3D Simulations</h3>
+            <p>Advanced facial detection and analysis system</p>
+            <div class="project-tech">
+                <span>Unity 3D</span>
+                <span>C#</span>
+                <span>Shader Graph</span>
+                <span>Physics Simulation</span>
+            </div>
+            <a href="projects/3d-simulations.html" class="project-link">View Project</a>
+        </div>
+        
+        <div class="project-card">
+            <img src="/assets/images/edu-model.png" alt="3D Educational Models project image" class="project-image">
+            <h3>Educational Models</h3>
+            <p>Real-time data visualization platform</p>
+            <div class="project-tech">
+                <span>JavaScript</span>
+                <span>p5.js</span>
+                <span>Three.js</span> 
+                <span>WebGL</span> 
+            </div>
+            <a href="projects/educational-models.html" class="project-link">View Project</a>
+        </div>
+        
+        <!-- New Project Cards -->
+        <div class="project-card">
+            <img src="/assets/images/web-dev.png" alt="Web Development project image" class="project-image">
+            <h3>Web Development</h3>
+            <p>Real-time sentiment analysis for social media feeds</p>
+            <div class="project-tech">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>API Integration</span>    
+            </div>
+            <a href="projects/web-development.html" class="project-link">View Project</a>
+        </div>
+        
+        <div class="project-card">
+            <img src="/assets/images/game-dev.png" alt="Game Development project image" class="project-image">
+            <h3>Game Development</h3>
+            <p>Smart home automation with machine learning</p>
+            <div class="project-tech">
+                <span>Python</span>
+                <span>Pygame</span>
+                <span>Sprite Animation</span>
+                <span>Generative AI</span>
+            </div>
+            <a href="projects/game-development.html" class="project-link">View Project</a>
+        </div>
+        
+        <div class="project-card">
+            <img src="/assets/images/content-creation.png" alt="Content Creation project image" class="project-image">
+            <h3>Content Creation</h3>
+            <p>ML-driven simulation environment for self-driving cars</p>
+            <div class="project-tech">
+                <span>AI Avatar</span>
+                <span>Canva Pro</span>
+                <span>Script Writing</span>
+                <span>DALL-E 3</span>
+            </div>
+            <a href="projects/content-creation.html" class="project-link">View Project</a>
+        </div>
+    </div>
+</section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skill-list">
+            <div class="skill-item">
+                <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                <h3>Generative AI</h3>
+                <div class="skill-bar"><div class="skill-progress" data-width="70%"></div></div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-icon"><i class="fa-solid fa-terminal"></i></div>
+                <h3>Prompt Engineering</h3>
+                <div class="skill-bar"><div class="skill-progress" data-width="60%"></div></div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-icon"><i class="fas fa-code"></i></div>
+                <h3>Web Development</h3>
+                <div class="skill-bar"><div class="skill-progress" data-width="55%"></div></div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-icon"><i class="fa-solid fa-cube"></i></div>
+                <h3>Unity 3D</h3>
+                <div class="skill-bar"><div class="skill-progress" data-width="40%"></div></div>
+            </div>
+        </div>
+    </section>
+
+<!-- Certifications Section -->
+<section id="certifications" class="certifications">
+    <h2 class="section-title">Certifications</h2>
+    <div class="cert-container">
+        <!-- Generative AI Certification -->
+        <div class="cert-card">
+            <img src="/assets/certificates/Gen-AI.png" alt="Generative AI Certificate" class="cert-image">
+            <h3>Generative AI</h3>
+            <p>Google Cloud - 2024</p>
+          
+        </div>
+        <!-- Prompt Engineering Certification -->
+        <div class="cert-card">
+            <img src="/assets/certificates/prompt eng.png" alt="Prompt Engineering Certificate" class="cert-image">
+            <h3>Prompt Engineering</h3>
+            <p>IBM - 2025</p>
+           
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>mirzarameez862@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+92 310 1155930</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Karachi, Pakistan</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/mirza-rameez/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/MirzaRameez" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="mailto:mirzarameez862@gmail.com" class="social-link"><i  class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+            
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+                <div id="form-status"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Mirza Rameez. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="js/theme-manager.js"></script>
+    <script>
+        // Read More Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const readMoreBtn = document.getElementById('read-more-btn');
+            const readMoreContent = document.getElementById('read-more-content');
+            
+            // Make sure the elements exist
+            if (readMoreBtn && readMoreContent) {
+                readMoreBtn.addEventListener('click', function() {
+                    // Toggle active class on content
+                    readMoreContent.classList.toggle('active');
+                    
+                    // Toggle active class on button for icon rotation
+                    readMoreBtn.classList.toggle('active');
+                    
+                    // Change button text
+                    if (readMoreBtn.classList.contains('active')) {
+                        readMoreBtn.innerHTML = 'Read Less <i class="fas fa-chevron-up"></i>';
+                    } else {
+                        readMoreBtn.innerHTML = 'Read More <i class="fas fa-chevron-down"></i>';
+                    }
+                });
+            }
+        });
+
+        // Initialize EmailJS
+(function() {
+    emailjs.init("i2W-bVhka32J5PDg6"); // Replace with your EmailJS user ID
+})();
+
+// Handle Contact Form Submission with EmailJS
+contactForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    // Show loading state
+    const submitBtn = this.querySelector('.submit-btn');
+    const originalText = submitBtn.textContent;
+    submitBtn.textContent = 'Sending...';
+    submitBtn.disabled = true;
+    
+    // Get form data
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const subject = document.getElementById('subject').value;
+    const message = document.getElementById('message').value;
+    
+    // Prepare template parameters
+    const templateParams = {
+        from_name: name,
+        from_email: email,
+        subject: subject,
+        message: message
+    };
+    
+    // Send email using EmailJS
+    emailjs.send('service_1smp79q', 'template_kloxrsk', templateParams)
+        .then(function(response) {
+            formStatus.textContent = 'Your message has been sent successfully!';
+            formStatus.className = 'success-message';
+            contactForm.reset();
+            
+            // Reset button
+            submitBtn.textContent = originalText;
+            submitBtn.disabled = false;
+            
+            // Clear success message after 5 seconds
+            setTimeout(() => {
+                formStatus.textContent = '';
+                formStatus.className = '';
+            }, 5000);
+        }, function(error) {
+            formStatus.textContent = 'Oops! Something went wrong. Please try again later.';
+            formStatus.className = 'error-message';
+            
+            // Reset button
+            submitBtn.textContent = originalText;
+            submitBtn.disabled = false;
+        });
+
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const skillBars = document.querySelectorAll('.skill-progress');
+    setTimeout(() => {
+        skillBars.forEach(bar => {
+            bar.style.width = bar.getAttribute('data-width');
+        });
+    }, 500);
+});
+    </script>
+</body>
+</html>

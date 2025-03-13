@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Genrative AI Game Development | Mirza Rameez</title>
+  <link rel="stylesheet" href="../css/project-styles.css">
+  <link rel="stylesheet" href="../css/theme-variables.css">
+  <link rel="icon" type="image/png" href="../assets/images/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo" onclick="window.location.href='../index.html'">MR</div>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#about">About Me</a></li>
+        <li><a href="../index.html#projects">Projects</a></li>
+        <li><a href="../index.html#skills">Skills</a></li>
+        <li><a href="../index.html#certifications">Certifications</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="theme-toggle" aria-label="Toggle dark mode">
+      <i class="fas fa-moon" id="theme-icon"></i>
+    </div>
+    <div class="mobile-menu-btn">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../index.html#about">About Me</a></li>
+      <li><a href="../index.html#projects">Projects</a></li>
+      <li><a href="../index.html#skills">Skills</a></li>
+      <li><a href="../index.html#certifications">Certifications</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Project Hero -->
+  <section class="project-hero">
+    <div class="container">
+      <div class="breadcrumbs">
+        <a href="../index.html">Home</a> / <a href="../index.html#projects">Projects</a> / <span>Space Invaders-inspired Game</span>
+      </div>
+      <h1>Space Invaders-inspired Game</h1>
+      <div class="project-intro">
+        <p>A modernized Space Invaders-inspired game using Python and Pygame with Generative AI assistance, featuring smooth controls, dynamic effects, and adaptive difficulty.</p>
+        <div class="tech-tags">
+          <span>Python</span>
+          <span>Pygame</span>
+          <span>Sprite Animation</span>
+          <span>Generative AI</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Overview -->
+  <section class="project-overview">
+    <div class="container">
+      <div class="overview-grid">
+        <div class="overview-content">
+          <h2>Project Overview</h2>
+          <p>I developed a modernized Space Invaders-inspired game using Python and Pygame with the assistance of Generative AI. This shooter features smooth player controls, progressively challenging enemies, dynamic particle effects, and adaptive difficulty scaling. The game includes a complete menu system with settings controls, persistent high scores, and an immersive audio experience with volume management. Through careful object-oriented design enhanced by AI collaboration, I created an engaging arcade experience with intuitive controls, visual feedback systems, and smooth performance.</p>
+        </div>
+        <div class="overview-image">
+          <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1974&q=80" alt="Space Invaders Game Concept">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Demo Section -->
+  <section class="project-demo">
+    <div class="container">
+      <h2>Demo & Results</h2>
+      <div class="demo-tabs">
+        <button class="tab-btn active" data-tab="images">Images</button>
+        <button class="tab-btn" data-tab="video">Video</button>
+      </div>
+      <div class="tab-content active" id="images">
+        <div class="image-gallery">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1616499370238-9cf0d7a1e41e?auto=format&fit=crop&w=2070&q=80" alt="Gameplay Screenshot 1">
+            <div class="image-caption">Intense gameplay with multiple enemies and particle effects</div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1620421680010-0766ff230392?auto=format&fit=crop&w=2070&q=80" alt="Gameplay Screenshot 2">
+            <div class="image-caption">Menu system with settings and high score display</div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="video">
+        <div class="video-demo">
+          <iframe width="800" height="450" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=demo" title="Space Invaders Game Demo" frameborder="0" allowfullscreen></iframe>
+          <p class="video-caption">Demo video showcasing gameplay mechanics and features.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="project-features">
+    <div class="container">
+      <h2>Key Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-gamepad"></i></div>
+          <h3>Progressive Difficulty System</h3>
+          <ul>
+            <li>Adaptive enemy scaling</li>
+            <li>Balanced challenge curve</li>
+            <li>Speed-based progression</li>
+            <li>Engagement-focused tuning</li>
+          </ul>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-fire"></i></div>
+          <h3>Dynamic Particle Effects</h3>
+          <ul>
+            <li>Physics-based explosions</li>
+            <li>Independent particle attributes</li>
+            <li>Efficient resource management</li>
+            <li>Visual feedback system</li>
+          </ul>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-sync-alt"></i></div>
+          <h3>Complete Game State Management</h3>
+          <ul>
+            <li>Clean state transitions</li>
+            <li>Modular architecture design</li>
+            <li>Menu-gameplay separation</li>
+            <li>Intuitive navigation system</li>
+          </ul>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-trophy"></i></div>
+          <h3>Persistent High Score System</h3>
+          <ul>
+            <li>JSON-based data storage</li>
+            <li>Cross-session persistence</li>
+            <li>Robust error handling</li>
+            <li>Achievement tracking system</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Implementation -->
+  <section class="technical-details">
+    <div class="container">
+      <h2>Technical Implementation</h2>
+      <div class="implementation-content">
+        <h3>Architecture & Code</h3>
+        <p>The game leverages an object-oriented architecture with encapsulated behaviors for entities like the player, enemies, and particles. Vector-based particle physics drive realistic explosion effects, while adaptive enemy scaling ensures a progressively challenging experience. Game state management separates menu and gameplay logic for seamless transitions.</p>
+        <div class="code-snippet">
+          <pre><code>
+class Player(pygame.sprite.Sprite):
+    def __init__(self):
+        super().__init__()
+        self.image = player_img
+        self.rect = self.image.get_rect(center=(SCREEN_WIDTH//2, SCREEN_HEIGHT-50))
+        self.speed = 8
+        self.health = 100
+        self.max_health = 100
+
+    def update(self):
+        keys = pygame.key.get_pressed()
+        if keys[pygame.K_LEFT] and self.rect.left > 0:
+            self.rect.x -= self.speed
+        if keys[pygame.K_RIGHT] and self.rect.right < SCREEN_WIDTH:
+            self.rect.x += self.speed
+
+    def draw_health_bar(self, surface):
+        bar_length = 100
+        bar_height = 10
+        fill = (self.health / self.max_health) * bar_length
+        outline_rect = pygame.Rect(self.rect.x, self.rect.y - 20, bar_length, bar_height)
+        fill_rect = pygame.Rect(self.rect.x, self.rect.y - 20, fill, bar_height)
+        pygame.draw.rect(surface, RED, fill_rect)
+        pygame.draw.rect(surface, WHITE, outline_rect, 2)
+          </code></pre>
+        </div>
+        <ul>
+          <li><strong>Object-Oriented Design</strong>: Encapsulated behaviors in classes.</li>
+          <li><strong>Particle Physics</strong>: Vector-based, time-driven effects.</li>
+          <li><strong>Difficulty Scaling</strong>: Speed increments for adaptive challenge.</li>
+          <li><strong>State Management</strong>: Clean separation of menu and gameplay.</li>
+          <li><strong>High Score Persistence</strong>: JSON storage with error handling.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learning Outcomes -->
+  <section class="learning-outcomes">
+    <div class="container">
+      <h2>Learning Outcomes</h2>
+      <div class="outcomes-content">
+        <p>This project enhanced my skills in game development and AI-assisted design, yielding valuable insights:</p>
+        <div class="outcome-card">
+          <h3>Game Loop Architecture</h3>
+          <p>Mastered time-based updates and state management for consistent gameplay across frame rates.</p>
+        </div>
+        <div class="outcome-card">
+          <h3>Particle System Implementation</h3>
+          <p>Learned to create efficient, physics-based particle effects with randomized properties.</p>
+        </div>
+        <div class="outcome-card">
+          <h3>Progressive Difficulty Design</h3>
+          <p>Gained expertise in balancing difficulty through programmatic scaling for player engagement.</p>
+        </div>
+        <div class="outcome-card">
+          <h3>UI/UX Design for Games</h3>
+          <p>Developed intuitive interfaces and immediate feedback systems for enhanced player experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Mirza Rameez. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+  <script src="../js/theme-manager.js"></script>
+</body>
+</html>

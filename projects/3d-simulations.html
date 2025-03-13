@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive 3D Simulations | Mirza Rameez</title>
+  <link rel="stylesheet" href="../css/project-styles.css">
+  <link rel="stylesheet" href="../css/theme-variables.css">
+  <link rel="icon" type="image/png" href="../assets/images/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo" onclick="window.location.href='../index.html'">MR</div>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#about">About Me</a></li>
+        <li><a href="../index.html#projects">Projects</a></li>
+        <li><a href="../index.html#skills">Skills</a></li>
+        <li><a href="../index.html#certifications">Certifications</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="theme-toggle" aria-label="Toggle dark mode">
+      <i class="fas fa-moon" id="theme-icon"></i>
+    </div>
+    <div class="mobile-menu-btn">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../index.html#about">About Me</a></li>
+      <li><a href="../index.html#projects">Projects</a></li>
+      <li><a href="../index.html#skills">Skills</a></li>
+      <li><a href="../index.html#certifications">Certifications</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Project Hero -->
+  <section class="project-hero">
+    <div class="container">
+      <div class="breadcrumbs">
+        <a href="../index.html">Home</a> / <a href="../index.html#projects">Projects</a> / <span>Interactive 3D Astrophysical Simulations</span>
+      </div>
+      <h1>Interactive 3D Astrophysical Simulations</h1>
+      <div class="project-intro">
+        <p>I developed an immersive suite of interactive 3D astrophysical simulations using Unity, enhanced by Generative AI assistance. These scientifically accurate models visualize complex cosmic phenomena including a highly detailed neutron star with magnetic field lines and radiation jets, and a reactive spacetime grid demonstrating gravitational effects. Both simulations feature intuitive camera controls for seamless navigation, physics-based interactions, and real-time parameter adjustments that instantly update the visualizations. This project transforms abstract astrophysical concepts into tangible, explorable 3D environments that maintain scientific accuracy while creating engaging educational experiences.</p>
+        <div class="tech-tags">
+          <span>Unity 3D</span>
+          <span>C#</span>
+          <span>Shader Graph</span>
+          <span>Physics Simulation</span>
+          <span>Particle Systems</span>
+          <span>Line Renderer</span>
+          <span>Procedural Generation</span>
+          <span>Scientific Visualization</span>
+          <span>Interactive 3D</span>
+          <span>Generative AI</span>
+          <span>Computational Physics</span>
+          <span>Custom Shaders</span>
+          <span>Real-time Rendering</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Overview -->
+  <section class="project-overview">
+    <div class="container">
+      <div class="overview-grid">
+        <div class="overview-content">
+          <h2>Project Overview</h2>
+          <p>I developed an immersive suite of interactive 3D astrophysical simulations using Unity, enhanced by Generative AI assistance. These scientifically accurate models visualize complex cosmic phenomena including a highly detailed neutron star with magnetic field lines and radiation jets, and a reactive spacetime grid demonstrating gravitational effects. Both simulations feature intuitive camera controls for seamless navigation, physics-based interactions, and real-time parameter adjustments that instantly update the visualizations. This project transforms abstract astrophysical concepts into tangible, explorable 3D environments that maintain scientific accuracy while creating engaging educational experiences.</p>
+        </div>
+        <div class="overview-image">
+          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1974&q=80" alt="Astrophysical Simulation Interface">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Demo Section -->
+  <section class="project-demo">
+    <div class="container">
+      <h2>Demo & Results</h2>
+      <div class="demo-tabs">
+        <button class="tab-btn active" data-tab="images">Images</button>
+        <button class="tab-btn" data-tab="video">Video</button>
+      </div>
+      <div class="tab-content active" id="images">
+        <div class="image-gallery">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1602524204122-82e85e1750e0?auto=format&fit=crop&w=2070&q=80" alt="Neutron Star Simulation">
+            <div class="image-caption">Neutron star simulation with magnetic field lines and radiation jets</div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1573497491208-6b1acb260507?auto=format&fit=crop&w=2070&q=80" alt="Spacetime Grid Simulation">
+            <div class="image-caption">Spacetime grid deformation in action</div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="video">
+        <div class="video-demo">
+          <iframe width="800" height="450" src="https://www.youtube.com/embed/ScMzIvxBSi4?si=demo" title="Astrophysical Simulation Demo" frameborder="0" allowfullscreen></iframe>
+          <p class="video-caption">Demo video showcasing interactive 3D astrophysical simulations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="project-features">
+    <div class="container">
+      <h2>Key Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-star"></i></div>
+          <h3>Physically Accurate Neutron Star Model</h3>
+          <ul>
+            <li>Dynamic temperature visualization</li>
+            <li>Dipole field generation</li>
+            <li>Radiation jet simulation</li>
+            <li>Axis-tilt mechanics</li>
+          </ul>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-th"></i></div>
+          <h3>Interactive Spacetime Curvature Grid</h3>
+          <ul>
+            <li>Real-time gravitational deformation</li>
+            <li>Physics-based interaction</li>
+            <li>Equilibrium restoration effects</li>
+            <li>Mass-curve visualization</li>
+          </ul>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-camera"></i></div>
+          <h3>Comprehensive Camera Control System</h3>
+          <ul>
+            <li>Multi-method navigation</li>
+            <li>Position boundary enforcement</li>
+            <li>Fluid orbiting mechanics</li>
+            <li>Intuitive zoom functionality</li>
+          </ul>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-sliders-h"></i></div>
+          <h3>Real-time Parameter Adjustments</h3>
+          <ul>
+            <li>Instant visual updates</li>
+            <li>Physics property modification</li>
+            <li>Shader parameter control</li>
+            <li>Performance-optimized changes</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Implementation -->
+  <section class="technical-details">
+    <div class="container">
+      <h2>Technical Implementation</h2>
+      <div class="implementation-content">
+        <h3>Architecture & Code</h3>
+        <p>These simulations leverage Unity's powerful 3D rendering and physics engines, enhanced by custom shaders and procedural generation techniques. Generative AI assisted in optimizing algorithms and generating realistic visual effects based on scientific data.</p>
+        <div class="code-snippet">
+          <pre><code>
+void SetupStar()
+{
+    transform.localScale = Vector3.one * starRadius;
+    MeshRenderer renderer = GetComponent<MeshRenderer>();
+    renderer.material = neutronStarShaderMaterial;
+
+    if (neutronStarShaderMaterial != null)
+    {
+        neutronStarShaderMaterial.SetFloat("_StarRadius", starRadius);
+        neutronStarShaderMaterial.SetColor("_EmissionColor", TemperatureToColor(surfaceTemperature));
+    }
+}
+
+// Convert temperature (in Kelvin) to visible color
+Color TemperatureToColor(float temperature)
+{
+    float temp = Mathf.Clamp(temperature, 1000f, 40000f);
+    float r = Mathf.Clamp01(Mathf.Pow(temp / 6000f, 4));
+    float g = Mathf.Clamp01(Mathf.Pow(temp / 6000f, 2));
+    float b = Mathf.Clamp01(temp / 6000f);
+    return new Color(r, g, b);
+}
+          </code></pre>
+        </div>
+        <ul>
+          <li><strong>Scientific Visualization System</strong>: Temperature-to-color blackbody radiation approximation</li>
+          <li><strong>Magnetic Field Line Generation</strong>: Procedural dipole field creation with spherical coordinates</li>
+          <li><strong>Spacetime Grid Deformation</strong>: Custom shader-based distortion with physics collision detection</li>
+          <li><strong>Camera Control System</strong>: Multi-input orbital navigation with smooth transitions and constraints</li>
+          <li><strong>Parameter Management</strong>: Real-time property updates with performance optimization</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learning Outcomes -->
+  <section class="learning-outcomes">
+    <div class="container">
+      <h2>Learning Outcomes</h2>
+      <div class="outcomes-content">
+        <p>This project deepened my expertise in scientific simulation development and AI-assisted design, yielding valuable insights:</p>
+        <div class="outcome-card">
+          <h3>Scientific Simulation Development</h3>
+          <p>This project significantly deepened my understanding of translating complex scientific phenomena into interactive visualizations. I learned how to balance scientific accuracy with visual clarity and system performance. Working with astrophysical models required extensive research into neutron star properties and general relativity concepts.</p>
+        </div>
+        <div class="outcome-card">
+          <h3>Procedural Generation Techniques</h3>
+          <p>Building these simulations taught me advanced techniques for procedural content generation. Rather than manually creating assets, I implemented systems that generate visual elements algorithmically based on physical parameters. The magnetic field lines, particle effects for radiation jets, and spacetime grid deformations are all generated procedurally, allowing them to adapt dynamically to parameter changes.</p>
+        </div>
+        <div class="outcome-card">
+          <h3>Shader Programming for Scientific Visualization</h3>
+          <p>This project pushed me to develop custom shader solutions for representing complex physical phenomena. I learned how to implement vertex displacement in shaders to create the spacetime deformation effect and emission properties to visualize extreme temperatures. This experience gave me practical skills in using Unity's Shader Graph system alongside custom shader code to create effects that would be impossible with standard materials.</p>
+        </div>
+        <div class="outcome-card">
+          <h3>Unity Physics Integration</h3>
+          <p>Implementing these simulations required deep integration with Unity's physics system to create realistic interactions. I learned techniques for detecting collisions and translating them into visual effects through shader property updates. The project taught me how to create physics-based controls that feel natural and intuitive to users.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Mirza Rameez. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+  <script src="../js/theme-manager.js"></script>
+</body>
+</html>

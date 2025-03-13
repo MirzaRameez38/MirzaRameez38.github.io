@@ -1,0 +1,68 @@
+
+/* ----------------------------------------------------
+   Color Variables (Light & Dark Themes)
+----------------------------------------------------- */
+:root {
+    /* Light Theme Colors */
+    --primary-color: #0070f3;
+    --primary-dark: #0050b3;  /* Used for hover states */
+    --secondary-color: #6c63ff;
+    --accent-color: #32e0c4;
+    --bg-color: #ffffff;
+    --bg-alt-color: #f5f5f5;
+    --text-color: #333333;
+    --text-muted: #666666;
+    --card-bg: #ffffff;
+    --border-color: #eeeeee;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --input-bg: #ffffff;
+    --input-border: #dddddd;
+    
+    /* Other Variables */
+    --header-height: 80px;
+    --transition: all 0.3s ease;
+    
+    /* Additional */
+    --code-bg: #f7f9fb;
+    --shadow: 0 5px 15px var(--shadow-color);
+}
+
+[data-theme="dark"] {
+    /* Dark Theme Colors */
+    --primary-color: #00a1ff;
+    --secondary-color: #8a7fff;
+    --accent-color: #40f0d0;
+    --bg-color: #121212;
+    --bg-alt-color: #1e1e1e;
+    --text-color: #f0f0f0;
+    --text-muted: #aaaaaa;
+    --card-bg: #2a2a2a;
+    --border-color: #333333;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+    --input-bg: #2a2a2a;
+    --input-border: #444444;
+    
+    /* Recalculate shadow with new shadow color */
+    --shadow: 0 5px 15px var(--shadow-color);
+}
+
+/* Theme Toggle Button Styles */
+.theme-toggle {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-left: 20px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--bg-secondary);
+}
+
+.theme-toggle:hover {
+    color: var(--primary-color);
+    transform: rotate(15deg);
+}
